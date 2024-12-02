@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFrameCA2", "WebFrameCA2\WebFrameCA2.csproj", "{0F23B863-7C81-4B3E-B2FE-F176F70555A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTesting", "ApiTesting\ApiTesting.csproj", "{5AA8FC54-DB0D-402A-AFE4-85C930FF20DC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0F23B863-7C81-4B3E-B2FE-F176F70555A7} = {0F23B863-7C81-4B3E-B2FE-F176F70555A7}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F23B863-7C81-4B3E-B2FE-F176F70555A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F23B863-7C81-4B3E-B2FE-F176F70555A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F23B863-7C81-4B3E-B2FE-F176F70555A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F23B863-7C81-4B3E-B2FE-F176F70555A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA8FC54-DB0D-402A-AFE4-85C930FF20DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA8FC54-DB0D-402A-AFE4-85C930FF20DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA8FC54-DB0D-402A-AFE4-85C930FF20DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA8FC54-DB0D-402A-AFE4-85C930FF20DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
